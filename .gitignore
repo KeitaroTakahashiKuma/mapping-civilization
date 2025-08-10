@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual env
+.venv/
+venv/
+ENV/
+
+# OS / IDE
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Output artifacts
+*.pdf
+*.png
+*.svg
+*.log
+
+# Data (keep local; adjust if you want to track sample data)
+data/*.csv
+!data/README.md
